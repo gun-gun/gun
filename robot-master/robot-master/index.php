@@ -89,5 +89,5 @@ foreach ($events as $event) {
 	}
 	
 } 
-echo "Hello  BOT";
+
     
