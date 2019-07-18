@@ -38,5 +38,7 @@ foreach ($events as $event) {
     $messageText=strtolower(trim($event->getText()));
     
   }
+  $outputText = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder("text message");
+$bot->replyMessage($event->getReplyToken(), $outputText);
 } 
 
